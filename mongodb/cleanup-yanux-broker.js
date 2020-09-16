@@ -1,8 +1,0 @@
-db.getCollection('beaconlogs').remove({})
-db.getCollection('beacons').remove({})
-db.getCollection('clients').remove({})
-db.getCollection('devices').remove({})
-db.getCollection('instances').remove({})
-db.getCollection('proxemics').remove({})
-db.getCollection('resources').remove({})
-db.getCollection('users').remove({})
