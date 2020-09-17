@@ -14,19 +14,21 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 opera version",
+      "last 1 edge version"
     ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      "last 1 opera version",
+      "last 1 edge version"
     ]
   },
   "dependencies": {
-    "install": "^0.13.0",
-    "react-modal": "^3.11.2",
     "serve": "^11.3.2"
   },
   "devDependencies": {
@@ -42,6 +44,7 @@
     "react": "^16.13.1",
     "react-app-rewired": "^2.1.6",
     "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
     "react-redux": "^7.2.1",
     "react-scripts": "^3.4.3",
     "react-textfit": "^1.1.0",
