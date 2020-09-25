@@ -12,8 +12,7 @@ import queryString from 'query-string'
 import yanuxBrokerConfig from '../../config/yanuxBroker'
 import yanuxCoordinatorConfig from '../../config/yanuxCoordinator'
 
-window.queryString = queryString
-const parameters = queryString.parse(window.location.hash);
+const parameters = queryString.parse(window.location.hash)
 let localDeviceUrl = parameters.local_device_url ? parameters.local_device_url : sessionStorage.getItem('local_device_url')
 localDeviceUrl = localDeviceUrl ? localDeviceUrl : yanuxBrokerConfig.local_device_url
 sessionStorage.setItem('local_device_url', localDeviceUrl)
