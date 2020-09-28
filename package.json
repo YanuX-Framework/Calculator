@@ -1,7 +1,15 @@
 {
   "name": "@yanux/calculator",
   "version": "0.1.0",
+  "description": "YanuX Calculator",
+  "repository": "github:YanuX-Framework/YanuX-Calculator",
   "private": true,
+  "author": {
+    "name": "Pedro Albuquerque Santos",
+    "email": "pedro@albuquerques.net",
+    "url": "https://pedro.albuquerques.net"
+  },
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
@@ -37,9 +45,9 @@
     "base64url": "^3.0.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
-    "enzyme-to-json": "^3.5.0",
+    "enzyme-to-json": "^3.6.1",
     "jsrsasign": "^10.0.0",
-    "query-string": "^6.13.2",
+    "query-string": "^6.13.4",
     "randombytes": "^2.1.0",
     "react": "^16.13.1",
     "react-app-rewired": "^2.1.6",
