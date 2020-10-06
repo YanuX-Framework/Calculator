@@ -60,7 +60,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "sha.js": "^2.4.11",
-    "sinon": "^9.1.0",
+    "sinon": "^9.2.0",
     "source-map-loader": "^1.1.0",
     "webpack-filter-warnings-plugin": "^1.2.1"
   }
