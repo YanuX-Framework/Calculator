@@ -1,7 +1,8 @@
 import './Button.css'
 import React from 'react';
 import { operators } from '../../utils/constants'
-export default ({ onButtonClick, buttonKey }) => {
+
+const Button = ({ onButtonClick, buttonKey }) => {
   let handleClick = (e) => { onButtonClick(e.target.textContent) }
   let classNames = [
     'btn',
@@ -19,3 +20,5 @@ export default ({ onButtonClick, buttonKey }) => {
     </button>
   );
 }
+
+export default Button

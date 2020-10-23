@@ -39,7 +39,7 @@ const initialState = () => {
     }
 }
 
-export default (state = initialState(), action) => {
+const authenticationReducer = (state = initialState(), action) => {
     switch (action.type) {
         case types.LOGOUT:
             localStorage.clear()
@@ -88,3 +88,5 @@ export default (state = initialState(), action) => {
             return state
     }
 }
+
+export default authenticationReducer

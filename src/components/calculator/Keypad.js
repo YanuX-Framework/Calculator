@@ -3,7 +3,8 @@ import './Keypad.css'
 import React, { Component } from 'react';
 import { keypadKeys } from '../../utils/constants';
 import Calculator from '../calculator'
-export default class Keypad extends Component {
+
+class Keypad extends Component {
   handleClick = (key) => {
     switch (key) {
       case 'C':
@@ -46,3 +47,5 @@ export default class Keypad extends Component {
     } else { return null }
   }
 }
+
+export default Keypad

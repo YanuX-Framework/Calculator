@@ -1,6 +1,6 @@
 import * as types from '../types';
 
-export default store => next => action => {
+const yanuxCoordinatorMiddleware = store => next => action => {
     console.log('[YanuX Coordinator Middleware (YXCM)]', action)
     console.log('[YXCM] Dispatching', action)
     let result = next(action)
@@ -29,3 +29,5 @@ export default store => next => action => {
     }
     return result
 }
+
+export default yanuxCoordinatorMiddleware

@@ -1,5 +1,7 @@
 import Login from './Login'
 
-export default {
+const authentication = {
     Login
 }
+
+export default authentication

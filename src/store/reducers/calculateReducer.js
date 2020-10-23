@@ -22,7 +22,7 @@ function setExpression({ expression, total }, action) {
   }
 }
 
-export default (state = initialState, action) => {
+const calculateReducer = (state = initialState, action) => {
   switch (action.type) {
     case types.LOGOUT:
       return Object.assign({}, initialState)
@@ -62,3 +62,5 @@ export default (state = initialState, action) => {
     default: return state
   }
 }
+
+export default calculateReducer

@@ -2,7 +2,7 @@ import authenticationConfig from '../config/authentication'
 import queryString from 'query-string'
 import { KEYUTIL, KJUR, b64utoutf8 } from 'jsrsasign'
 
-export default async (nonce) => {
+const extractIdToken = async (nonce) => {
     const parameters = queryString.parse(window.location.hash)
     const idToken = parameters.id_token
     if (idToken) {
@@ -24,3 +24,5 @@ export default async (nonce) => {
         return false;
     }
 }
+
+export default extractIdToken

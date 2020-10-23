@@ -3,7 +3,7 @@ import './Screen.css';
 import React from 'react';
 import { Textfit } from 'react-textfit';
 
-export default (props) => {
+const Screen = (props) => {
     if (props.componentsConfig && props.componentsConfig.screen) {
         return (
             <div className="screen">
@@ -23,3 +23,5 @@ export default (props) => {
             </div>)
     } else { return null }
 }
+
+export default Screen

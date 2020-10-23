@@ -2,7 +2,7 @@ import './Coordinator.css'
 import React from 'react'
 import ReactModal from 'react-modal'
 
-export default class Coordinator extends React.Component {
+class Coordinator extends React.Component {
     constructor(props) {
         super(props)
         this.state = { alert: { title: 'Alert', message: 'Message', show: false } }
@@ -411,3 +411,5 @@ export default class Coordinator extends React.Component {
         console.error('[YXCDE] Reset Auto Components Distribution:', e.detail)
     }
 }
+
+export default Coordinator

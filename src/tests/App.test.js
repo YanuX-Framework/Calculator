@@ -6,7 +6,7 @@ import { App } from '../App';
 import sinon from 'sinon';
 
 configure({
-  adapter: new Adapter
+  adapter: new Adapter()
 })
 
 describe('<App />', () => {

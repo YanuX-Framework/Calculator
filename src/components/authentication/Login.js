@@ -1,7 +1,7 @@
 import './Login.css'
 import React, { Component } from 'react'
 
-export default class Login extends Component {
+class Login extends Component {
     componentDidMount() {
         this.props.initializeAuth()
     }
@@ -28,3 +28,5 @@ export default class Login extends Component {
         } else { return (<div className="login"><a className="header-button" href={this.props.loginUrl}>Login</a></div>) }
     }
 }
+
+export default Login

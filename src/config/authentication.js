@@ -1,4 +1,4 @@
-export default {
+const config = {
     oauth2_client_id: 'yanux-calculator',
     oauth2_authentication_server: `http://${window.location.hostname}:3001`,
     oauth2_authentication_server_token_endpoint: '/oauth2/token',
@@ -8,3 +8,5 @@ export default {
     oauth2_authentication_server_public_key_endpoint: '/api/public_key',
     oauth2_redirect_uri: `http://${window.location.hostname}:3006/`
 }
+
+export default config

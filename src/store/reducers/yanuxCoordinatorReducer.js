@@ -24,7 +24,7 @@ const initialState = {
     localDeviceUrl
 }
 
-export default (state = initialState, action) => {
+const yanuxCoordinatorReducer = (state = initialState, action) => {
     switch (action.type) {
         case types.LOGOUT:
             return Object.assign({}, initialState);
@@ -64,3 +64,5 @@ export default (state = initialState, action) => {
             return state
     }
 }
+
+export default yanuxCoordinatorReducer

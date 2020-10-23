@@ -1,4 +1,4 @@
-export default {
+const yanuxCoordinador = {
     components_restrictions: {
         "screen": {
             "showByDefault": true,
@@ -19,3 +19,5 @@ export default {
         }
     }
 }
+
+export default yanuxCoordinador
