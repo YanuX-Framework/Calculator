@@ -1,5 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# YanuX Calculator
+This is part of the [__YanuX Frameworl__](https://yanux-framework.github.io/). It is an application prototype which uses the automatic distribution of UI components based on the capabilities of the devices that provides a basic calculator in a multi-device environment.
 
+It authenticates with the [__YanuX Auth__](https://yanux-framework.github.io/) and connects to the [__YanuX Broker__](https://github.com/YanuX-Framework/YanuX-Broker) using the [__YanuX Coordinator__](https://github.com/YanuX-Framework/YanuX-Coordinator).
+
+This application is the first to introduce sharing of information and collaboration capabilities. It also allows users to override the automatic distribution of interface elements as they see fit.
+
+## Documentation
+The application was built using [__React__](https://reactjs.org/), [__Redux__](https://redux.js.org/) and our own [__YanuX Coordinator__](https://github.com/YanuX-Framework/YanuX-Coordinator)
+
+### TODO:
+- Add some screenshots.
+- Provide additional documentation.
+
+## License
+This work is licensed under [__GNU Affero General Public License Version 3__](LICENSE)
+
+# Create React App Documentation
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
 In the project directory, you can run:
