@@ -1,5 +1,5 @@
 # YanuX Calculator
-This is part of the [__YanuX Frameworl__](https://yanux-framework.github.io/). It is an application prototype which uses the automatic distribution of UI components based on the capabilities of the devices that provides a basic calculator in a multi-device environment.
+This is part of the [__YanuX Framework__](https://yanux-framework.github.io/). It is an application prototype which uses the automatic distribution of UI components based on the capabilities of the devices that provides a basic calculator in a multi-device environment.
 
 It authenticates with the [__YanuX Auth__](https://yanux-framework.github.io/) and connects to the [__YanuX Broker__](https://github.com/YanuX-Framework/YanuX-Broker) using the [__YanuX Coordinator__](https://github.com/YanuX-Framework/YanuX-Coordinator).
 
@@ -8,7 +8,7 @@ This application is the first to introduce sharing of information and collaborat
 ## Documentation
 The application was built using [__React__](https://reactjs.org/), [__Redux__](https://redux.js.org/) and our own [__YanuX Coordinator__](https://github.com/YanuX-Framework/YanuX-Coordinator)
 
-### TODO:
+### TO DO:
 - Add some screenshots.
 - Provide additional documentation.
 
