@@ -45,7 +45,6 @@
     "@testing-library/user-event": "^13.1.9",
     "@yanux/coordinator": "file:../Coordinator",
     "autoprefixer": "^10.2.5",
-    "base64-arraybuffer": "^0.2.0",
     "base64url": "^3.0.1",
     "jsrsasign": "^10.1.11",
     "query-string": "^7.0.0",
