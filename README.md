@@ -11,6 +11,10 @@ The application was built using [__React__](https://reactjs.org/), [__Redux__](h
 ### TO DO:
 - Add some screenshots.
 - Provide additional documentation.
+- Upgrade to `create-react-app` *v5* once `react-app-rewired` supports it:
+    - https://github.com/facebook/create-react-app/releases/tag/v5.0.0
+    - **CRACO** is also an option if `react-app-rewired` ends up not supporting newer `create-react-app` versions.
+    - Upgrading to `create-react-app` *v5* should also upgrade `webpack`to *v5* which should let me update the `source-map-loader` to the latest version.
 
 ## License
 This work is licensed under [__GNU Affero General Public License Version 3__](LICENSE)
