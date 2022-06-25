@@ -46,7 +46,7 @@
     "@yanux/coordinator": "file:../Coordinator",
     "autoprefixer": "^10.2.5",
     "base64url": "^3.0.1",
-    "jsrsasign": "^10.1.11",
+    "jsrsasign": "^10.5.25",
     "query-string": "^7.0.0",
     "randombytes": "^2.1.0",
     "react": "^17.0.1",
